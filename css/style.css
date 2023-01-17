@@ -63,9 +63,19 @@ span {
 ul .sottolista{
     padding-inline-start: none;
     list-style-image: url(../img/green-check-mark-icon-checkmark-circle-checklist-tick-colored-flat-style-vector-illustration-eps-154721515.jpg);
+    
 }
 
+ul > li .today :nth-child(3) {
+    
+    list-style-image: url(../img/pngtree-cross-on-a-red-circle-brush-effect-png-image_2921049.jpg);
+}
 
+ul > li .upcoming :nth-child(1) {
+
+    list-style-image: url(../img/pngtree-cross-on-a-red-circle-brush-effect-png-image_2921049.jpg);
+
+}
 
 .lista-primaria {
     list-style-image: url(../img/9662.png);
@@ -118,4 +128,8 @@ ul .sottolista{
 
 .triangolino {
     font-size: 15px;
+}
+
+.fail {
+
 }
