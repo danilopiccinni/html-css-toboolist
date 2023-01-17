@@ -22,19 +22,28 @@ main {
     max-width: 100%;
     margin-left: 15%;
     margin-right: 15%;
+
 }
 
 
 nav {
     width: auto;
     background-color: white;
-    padding: 2%;
+    padding-left: 10%;
     margin-bottom: 2px;
+    
+}
+
+section {
+    padding-left: 12%;
+    background-color: white;
+
 }
 
 #add-task {
     color: white;
     background-color: #46adf1;
+    
 }
 
 #add-section {
@@ -48,3 +57,7 @@ nav {
     padding: 3px 5px;
 }
 
+
+.triangolino {
+    font-size: 15px;
+}
