@@ -15,4 +15,34 @@ h1 {
 
 header {
     background-color: white;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+nav {
+    width: auto;
+    background-color: white;
+    padding: 2%;
+}
+
+#add-task {
+    color: white;
+    background-color: #46adf1;
+}
+
+#add-section {
+    color: gray;
+    background-color: white;
+}
+
+.adding {
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 3px 5px;
 }
