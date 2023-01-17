@@ -52,15 +52,51 @@ li {
     
 }
 
-
+span { 
+    margin-left: 1%;
+    border-radius: 13px;
+    
+    padding: 1%;
+    font-size: 10px;
+}
 
 ul .sottolista{
     padding-inline-start: none;
     list-style-image: url(../img/green-check-mark-icon-checkmark-circle-checklist-tick-colored-flat-style-vector-illustration-eps-154721515.jpg);
 }
 
+
+
 .lista-primaria {
     list-style-image: url(../img/9662.png);
+}
+
+.editorial {
+    background-color: #44aaea;
+}
+
+.goals {
+    background-color: #9c72e4;
+}
+
+.mobile {
+    background-color: #46adf1;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.website {
+    background-color: #d862a1;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.sales {
+    background-color: #b0c925;
 }
 #add-task {
     color: white;
