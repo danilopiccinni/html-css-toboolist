@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: 'Ubuntu', sans-serif;
     background-color: #f6f8f9;
 }
 
@@ -41,13 +42,17 @@ section {
 }
 
 ul > li {
+    font-size: large;
     padding-inline-start: 0px;
 }
 
+
 li {
     padding: 2%;
-    padding-inline-start: none;
+    
 }
+
+
 
 ul .sottolista{
     padding-inline-start: none;
