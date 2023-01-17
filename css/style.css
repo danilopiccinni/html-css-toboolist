@@ -49,8 +49,13 @@ li {
     padding-inline-start: none;
 }
 
-ul {
+ul .sottolista{
     padding-inline-start: none;
+    list-style-image: url(../img/green-check-mark-icon-checkmark-circle-checklist-tick-colored-flat-style-vector-illustration-eps-154721515.jpg);
+}
+
+.lista-primaria {
+    list-style-image: url(../img/9662.png);
 }
 #add-task {
     color: white;
@@ -72,17 +77,4 @@ ul {
 
 .triangolino {
     font-size: 15px;
-}
-
-
-user agent stylesheet
-user agent stylesheet
-user agent stylesheet
-::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
 }
